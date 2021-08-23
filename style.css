@@ -171,3 +171,9 @@ body {
         margin-top: 20px;
     }
 }
+
+@media (max-height: 800px) {
+    .result {
+        margin-top: 60px;
+    }
+}
