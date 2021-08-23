@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="title">Currency converter</h1>
+    </header>
+
+    <div class="from-to-currency">
+        <input type="text" class="from-currency input-currency" placeholder="from">
+        <div class="dollar-div">
+            <img src="images/Rectangle 3.svg" alt="smrect" class="small-rect" >
+            <img src="images/Group 1.svg" alt="dollar" class="dollar-img">
+            <img src="images/Rectangle 3.svg" alt="smrect" class="small-rect">
+        </div>
+        
+        <input type="text" class="to-currency input-currency" placeholder="to">
+    </div>
+
+    <div class="result">
+        <div class="big-circle">
+            <div class="small-circle">
+                <input type="text" class="from-to-result result-inp">
+                <img src="images/Rectangle 6.svg" alt="line" class="line-result">
+                <input type="text" class="to-to-result result-inp">
+            </div>
+        </div>
+    </div>
+    <div class="error">
+        <h1 class="error-title">Something went wrong. Check if you entered the currency correctly!</h1>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
